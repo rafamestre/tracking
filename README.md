@@ -1,2 +1,4 @@
 # tracking
  Tracking code for bio-bots (or other big objects)
+
+tracking.py -> this code uses openCV trackers (mainly BOOSTING although others can be used too) to track the position of complex macro-objects moving in a video, in particular bio-bots. The video is modified to write information of interest: a cropped-in image of the tracked objetc, FPS, a scale bar (calibration can be done with a paper sheet in the video), time, type of tracker... Several options can be modified to achieve different types of calibration (manual or automatic) or to recreate the video by changing several outputs without needing to track the object again. Different plots are produced, such as displacement in time, speed, etc.
